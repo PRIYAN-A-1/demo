@@ -1,4 +1,4 @@
-// File: C:\Users\priya\OneDrive\Microsoft Copilot Chat Files\wedsite demo\src\app\api\auth\register\route.ts
+// File: /vercel/share/v0-project/src/app/api/auth/register/route.ts
 import * as entry from '../../../../../../src/app/api/auth/register/route.js'
 import type { NextRequest } from 'next/server.js'
 
