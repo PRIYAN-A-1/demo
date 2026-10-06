@@ -5,7 +5,10 @@ declare global {
   var prisma: PrismaClient | undefined;
 }
 
-const databaseUrl = process.env.POSTGRES_PRISMA_URL || process.env.POSTGRES_URL;
+const databaseUrl =
+  process.env.POSTGRES_PRISMA_URL ??
+  process.env.POSTGRES_URL ??
+  process.env.DATABASE_URL;
 
 export const prisma =
   global.prisma ||
